@@ -19,11 +19,12 @@ public class Usuario {
 		else {
 			return false;
 		}
-		
-			
-		
-		
+				
 		}
+	
+	public int hashCode() {
+		return this.nome.length();
+	}
 		
 	}
 	
